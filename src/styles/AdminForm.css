@@ -1,0 +1,117 @@
+/* AdminForm.css */
+
+/* Styling for the modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the modal content */
+  .modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds space between elements */
+  }
+  
+  /* Styling for modal detail paragraphs */
+  .modal-detail {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    border-bottom: 1px solid #ccc; /* Add border bottom for separation */
+    padding-bottom: 10px; /* Add padding at the bottom */
+  }
+  
+  /* Styling for the close button */
+  .close-button {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the individual elements in the modal */
+  .modal-detail label {
+    font-weight: bold;
+  }
+  
+  .modal-detail p {
+    margin: 0;
+  }
+  
+  
+ 
+
+ /* Styling for the admin form container */
+.admin-form-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Styling for the pagination controls */
+ .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #0056b3;
+}
+
+.pagination-text {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+/* Styling for the ul */
+.form-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.form-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.form-item p{
+  font-size: 16px;
+  margin:5px
+}
+
+.form-item:hover {
+  background-color: #f0f0f0;
+}

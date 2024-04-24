@@ -1,0 +1,154 @@
+/* Header.css */
+
+.main-header{
+     color: #fff;
+ }
+/* Container styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+
+   
+}
+.main-header .sub-h{
+    padding-top: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+/* Logo styles */
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    cursor: pointer; 
+
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.logo h1{
+    font-size: 15px;
+}
+
+/* User actions container styles */
+.user-actions {
+    position: relative; /* Make sure the dropdown is positioned relative to this container */
+}
+.login-btn{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 3px;
+    border: 2px solid white;
+}
+.login-btn:hover {
+    background-color: white;
+}
+/* User icon styles */
+.user-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer; /* Add cursor pointer for clickable behavior */
+}
+
+/* Dropdown styles */
+.dropdown {
+    color:black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10; /* Make sure the dropdown appears above other content */
+}
+
+/* Sign out button styles */
+.sign-out-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-out-btn:hover {
+    background-color: #f1f1f1;
+}
+
+.user-email{
+    color:black;
+    padding:8px;
+    font-size: 14px;
+}
+.user-icon-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.user-icon svg {
+    color: #fff;
+    font-size: 20px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    min-width: 120px;
+}
+.dropdown div{
+    border-bottom: 0.4px solid grey;
+    margin-bottom: 8px;
+    font-size: 14px;
+    padding:8px;
+}
+.user-email, .user-admin:hover {
+    background-color: whitesmoke;
+}
+
+
+.sign-out-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sign-out-btn:hover {
+    background-color: #0056b3;
+}
